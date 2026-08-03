@@ -1,0 +1,48 @@
+/opt/pytorch/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/ubuntu/models.py:70: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.transformer = nn.TransformerEncoder(layer, num_layers=n_layers)
+[0;93m2026-07-31 06:02:32.203924713 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+checkpoint: runs/full/best.pt (epoch 186)
+split:      val, 60 cases
+threshold:  0.98   min component size: 20
+
+  10/60
+  20/60
+  30/60
+  40/60
+  50/60
+  60/60
+
+==================================================================
+SELECTION RULES  (n=60, median 26 components per case)
+==================================================================
+rule                    mean Dice    median   zeros
+------------------------------------------------------------------
+oracle                     0.7044    0.7859       0  <- oracle ceiling
+mass                       0.5965    0.7659       9
+largest                    0.5965    0.7659       9
+minsize_largest            0.5965    0.7659       9
+minsize_mass               0.5965    0.7659       9
+size_x_mean                0.5965    0.7659       9
+largest_open               0.5689    0.7485       9
+minsize_largest_open       0.5689    0.7485       9
+minsize_mass_open          0.5689    0.7485       9
+size_x_mean_open           0.5689    0.7485       9
+mass_open                  0.5689    0.7485       9
+minsize_peak               0.5603    0.7500      13
+peak                       0.5603    0.7500      13
+peak_open                  0.5283    0.7409      14
+minsize_peak_open          0.5283    0.7409      14
+
+==================================================================
+best rule:  mass   Dice 0.5965
+current:    largest      Dice 0.5965
+gain:       +0.0000
+oracle:     0.7044   (closes 0% of the gap)
+==================================================================
+
+per-case detail written to selection_rules.csv
+
+Apply the winning rule uniformly to every configuration, state
+that it was selected on validation, and re-run the test evaluation.

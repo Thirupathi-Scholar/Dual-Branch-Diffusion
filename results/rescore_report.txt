@@ -1,0 +1,96 @@
+
+========================================================================
+OPERATING POINT 0.98  (n=180)
+========================================================================
+Dice 0.6439   IoU 0.5505   failures <0.01: 26 (14.4%)
+
+spacing-corrected cases: 16/180 (8.9%)
+metric           nominal        true     delta
+HD95 (mm)        29.4100     27.9529   -1.4571
+MSD (mm)         19.6032     18.8263   -0.7769
+  affected only (n=16): HD95 61.333 -> 44.941   MSD 39.293 -> 30.553
+
+========================================================================
+SELECTION RULES
+========================================================================
+
+threshold 0.50   largest 0.5814   oracle 0.7590   gap +0.1776   median components 5
+  cond_lowconf_0.9999        0.6601   +0.0787    44.3% of gap  <-- beats largest
+  cond_nodom_0.7             0.6521   +0.0706    39.8% of gap  <-- beats largest
+  cond_disagree              0.6471   +0.0656    37.0% of gap  <-- beats largest
+  peak_prob                  0.6471   +0.0656    37.0% of gap  <-- beats largest
+  cond_lowconf_0.9995        0.6437   +0.0623    35.1% of gap  <-- beats largest
+  mean_prob                  0.6373   +0.0559    31.5% of gap  <-- beats largest
+  cond_lowconf_0.999         0.6371   +0.0557    31.4% of gap  <-- beats largest
+  cond_nodom_0.5             0.6349   +0.0534    30.1% of gap  <-- beats largest
+  prob_mass                  0.5909   +0.0094     5.3% of gap  <-- beats largest
+  cond_nodom_0.3             0.5862   +0.0048     2.7% of gap
+
+threshold 0.80   largest 0.6074   oracle 0.7616   gap +0.1542   median components 5
+  cond_lowconf_0.9999        0.6710   +0.0636    41.2% of gap  <-- beats largest
+  cond_nodom_0.7             0.6571   +0.0497    32.3% of gap  <-- beats largest
+  cond_lowconf_0.9995        0.6488   +0.0414    26.9% of gap  <-- beats largest
+  cond_nodom_0.5             0.6486   +0.0412    26.7% of gap  <-- beats largest
+  cond_disagree              0.6472   +0.0398    25.8% of gap  <-- beats largest
+  peak_prob                  0.6472   +0.0398    25.8% of gap  <-- beats largest
+  cond_lowconf_0.999         0.6441   +0.0368    23.8% of gap  <-- beats largest
+  mean_prob                  0.6359   +0.0285    18.5% of gap  <-- beats largest
+  prob_mass                  0.6166   +0.0092     6.0% of gap  <-- beats largest
+  cond_nodom_0.3             0.6111   +0.0037     2.4% of gap
+
+threshold 0.95   largest 0.6375   oracle 0.7535   gap +0.1160   median components 4
+  cond_lowconf_0.9999        0.6777   +0.0401    34.6% of gap  <-- beats largest
+  cond_lowconf_0.9995        0.6664   +0.0289    24.9% of gap  <-- beats largest
+  cond_lowconf_0.999         0.6619   +0.0244    21.0% of gap  <-- beats largest
+  cond_nodom_0.5             0.6517   +0.0141    12.2% of gap  <-- beats largest
+  cond_disagree              0.6412   +0.0037     3.2% of gap
+  peak_prob                  0.6412   +0.0037     3.2% of gap
+  cond_nodom_0.7             0.6393   +0.0018     1.5% of gap
+  prob_mass                  0.6375   +0.0000     0.0% of gap
+  cond_nodom_0.3             0.6359   -0.0017    -1.4% of gap
+  mean_prob                  0.6350   -0.0026    -2.2% of gap
+
+threshold 0.98   largest 0.6439   oracle 0.7358   gap +0.0919   median components 3
+  cond_lowconf_0.9995        0.6637   +0.0199    21.6% of gap  <-- beats largest
+  cond_lowconf_0.9999        0.6635   +0.0197    21.4% of gap  <-- beats largest
+  cond_lowconf_0.999         0.6630   +0.0191    20.8% of gap  <-- beats largest
+  prob_mass                  0.6439   +0.0000     0.0% of gap
+  cond_nodom_0.5             0.6411   -0.0028    -3.0% of gap
+  cond_nodom_0.3             0.6369   -0.0070    -7.6% of gap
+  cond_nodom_0.7             0.6342   -0.0097   -10.5% of gap
+  mean_prob                  0.6335   -0.0104   -11.3% of gap
+  cond_disagree              0.6284   -0.0155   -16.8% of gap
+  peak_prob                  0.6284   -0.0155   -16.8% of gap
+
+threshold 0.99   largest 0.6394   oracle 0.7010   gap +0.0616   median components 3
+  cond_lowconf_0.9995        0.6450   +0.0056     9.0% of gap  <-- beats largest
+  cond_lowconf_0.999         0.6440   +0.0046     7.4% of gap
+  cond_lowconf_0.9999        0.6396   +0.0002     0.3% of gap
+  cond_nodom_0.3             0.6394   +0.0000     0.0% of gap
+  prob_mass                  0.6394   +0.0000     0.0% of gap
+  cond_nodom_0.5             0.6224   -0.0170   -27.7% of gap
+  cond_nodom_0.7             0.6140   -0.0254   -41.3% of gap
+  mean_prob                  0.6118   -0.0276   -44.9% of gap
+  cond_disagree              0.6036   -0.0358   -58.2% of gap
+  peak_prob                  0.6036   -0.0358   -58.2% of gap
+
+========================================================================
+FAILURE / SUCCESS DECOMPOSITION at threshold 0.98
+========================================================================
+base failure rate in this split: 14.4%  (n_fail=26, n_succ=142)
+
+rule                       on failures   on successes       net
+cond_disagree                  +0.4185        -0.0920   -0.0155
+cond_lowconf_0.999             +0.1392        +0.0000   +0.0191
+cond_lowconf_0.9995            +0.1743        -0.0055   +0.0199
+cond_lowconf_0.9999            +0.2879        -0.0236   +0.0197
+cond_nodom_0.3                 +0.0000        -0.0089   -0.0070
+cond_nodom_0.5                 +0.1667        -0.0312   -0.0028
+cond_nodom_0.7                 +0.3873        -0.0790   -0.0097
+peak_prob                      +0.4185        -0.0920   -0.0155
+mean_prob                      +0.4788        -0.0919   -0.0104
+prob_mass                      +0.0000        +0.0000   +0.0000
+
+A rule is publishable only if it gains on failures WITHOUT
+materially losing on successes. A large net gain driven by a
+failure-enriched sample will not replicate at the true base rate.

@@ -1,0 +1,1237 @@
+{
+ "phase": "1",
+ "preprocessed": true,
+ "spacing": [
+  1.5,
+  1.5,
+  2.0
+ ],
+ "norm": "zscore",
+ "n": 306,
+ "records": [
+  {
+   "case": "DUKE_019",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_019.npz"
+  },
+  {
+   "case": "DUKE_021",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_021.npz"
+  },
+  {
+   "case": "DUKE_028",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_028.npz"
+  },
+  {
+   "case": "DUKE_044",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_044.npz"
+  },
+  {
+   "case": "DUKE_046",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_046.npz"
+  },
+  {
+   "case": "DUKE_055",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_055.npz"
+  },
+  {
+   "case": "DUKE_057",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_057.npz"
+  },
+  {
+   "case": "DUKE_060",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_060.npz"
+  },
+  {
+   "case": "DUKE_069",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_069.npz"
+  },
+  {
+   "case": "DUKE_086",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_086.npz"
+  },
+  {
+   "case": "DUKE_099",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_099.npz"
+  },
+  {
+   "case": "DUKE_101",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_101.npz"
+  },
+  {
+   "case": "DUKE_116",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_116.npz"
+  },
+  {
+   "case": "DUKE_120",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_120.npz"
+  },
+  {
+   "case": "DUKE_134",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_134.npz"
+  },
+  {
+   "case": "DUKE_136",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_136.npz"
+  },
+  {
+   "case": "DUKE_157",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_157.npz"
+  },
+  {
+   "case": "DUKE_163",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_163.npz"
+  },
+  {
+   "case": "DUKE_167",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_167.npz"
+  },
+  {
+   "case": "DUKE_189",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_189.npz"
+  },
+  {
+   "case": "DUKE_205",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_205.npz"
+  },
+  {
+   "case": "DUKE_234",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_234.npz"
+  },
+  {
+   "case": "DUKE_237",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_237.npz"
+  },
+  {
+   "case": "DUKE_244",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_244.npz"
+  },
+  {
+   "case": "DUKE_253",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_253.npz"
+  },
+  {
+   "case": "DUKE_271",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_271.npz"
+  },
+  {
+   "case": "DUKE_283",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_283.npz"
+  },
+  {
+   "case": "DUKE_285",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_285.npz"
+  },
+  {
+   "case": "DUKE_287",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_287.npz"
+  },
+  {
+   "case": "DUKE_303",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_303.npz"
+  },
+  {
+   "case": "DUKE_307",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_307.npz"
+  },
+  {
+   "case": "DUKE_317",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_317.npz"
+  },
+  {
+   "case": "DUKE_323",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_323.npz"
+  },
+  {
+   "case": "DUKE_346",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_346.npz"
+  },
+  {
+   "case": "DUKE_353",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_353.npz"
+  },
+  {
+   "case": "DUKE_377",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_377.npz"
+  },
+  {
+   "case": "DUKE_383",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_383.npz"
+  },
+  {
+   "case": "DUKE_385",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_385.npz"
+  },
+  {
+   "case": "DUKE_397",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_397.npz"
+  },
+  {
+   "case": "DUKE_398",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_398.npz"
+  },
+  {
+   "case": "DUKE_408",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_408.npz"
+  },
+  {
+   "case": "DUKE_414",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_414.npz"
+  },
+  {
+   "case": "DUKE_420",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_420.npz"
+  },
+  {
+   "case": "DUKE_424",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_424.npz"
+  },
+  {
+   "case": "DUKE_428",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_428.npz"
+  },
+  {
+   "case": "DUKE_431",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_431.npz"
+  },
+  {
+   "case": "DUKE_438",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_438.npz"
+  },
+  {
+   "case": "DUKE_457",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_457.npz"
+  },
+  {
+   "case": "DUKE_470",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_470.npz"
+  },
+  {
+   "case": "DUKE_480",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_480.npz"
+  },
+  {
+   "case": "DUKE_482",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_482.npz"
+  },
+  {
+   "case": "DUKE_508",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_508.npz"
+  },
+  {
+   "case": "DUKE_514",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_514.npz"
+  },
+  {
+   "case": "DUKE_525",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_525.npz"
+  },
+  {
+   "case": "DUKE_539",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_539.npz"
+  },
+  {
+   "case": "DUKE_541",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_541.npz"
+  },
+  {
+   "case": "DUKE_559",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_559.npz"
+  },
+  {
+   "case": "DUKE_560",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_560.npz"
+  },
+  {
+   "case": "DUKE_562",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_562.npz"
+  },
+  {
+   "case": "DUKE_567",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_567.npz"
+  },
+  {
+   "case": "DUKE_568",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_568.npz"
+  },
+  {
+   "case": "DUKE_573",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_573.npz"
+  },
+  {
+   "case": "DUKE_585",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_585.npz"
+  },
+  {
+   "case": "DUKE_592",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_592.npz"
+  },
+  {
+   "case": "DUKE_605",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_605.npz"
+  },
+  {
+   "case": "DUKE_609",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_609.npz"
+  },
+  {
+   "case": "DUKE_614",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_614.npz"
+  },
+  {
+   "case": "DUKE_615",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_615.npz"
+  },
+  {
+   "case": "DUKE_640",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_640.npz"
+  },
+  {
+   "case": "DUKE_642",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_642.npz"
+  },
+  {
+   "case": "DUKE_651",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_651.npz"
+  },
+  {
+   "case": "DUKE_663",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_663.npz"
+  },
+  {
+   "case": "DUKE_670",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_670.npz"
+  },
+  {
+   "case": "DUKE_687",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_687.npz"
+  },
+  {
+   "case": "DUKE_691",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_691.npz"
+  },
+  {
+   "case": "DUKE_718",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_718.npz"
+  },
+  {
+   "case": "DUKE_754",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_754.npz"
+  },
+  {
+   "case": "DUKE_757",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_757.npz"
+  },
+  {
+   "case": "DUKE_775",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_775.npz"
+  },
+  {
+   "case": "DUKE_780",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_780.npz"
+  },
+  {
+   "case": "DUKE_789",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_789.npz"
+  },
+  {
+   "case": "DUKE_799",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_799.npz"
+  },
+  {
+   "case": "DUKE_817",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_817.npz"
+  },
+  {
+   "case": "DUKE_832",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_832.npz"
+  },
+  {
+   "case": "DUKE_836",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_836.npz"
+  },
+  {
+   "case": "DUKE_839",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_839.npz"
+  },
+  {
+   "case": "DUKE_847",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_847.npz"
+  },
+  {
+   "case": "DUKE_869",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_869.npz"
+  },
+  {
+   "case": "DUKE_882",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_882.npz"
+  },
+  {
+   "case": "DUKE_883",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_883.npz"
+  },
+  {
+   "case": "DUKE_915",
+   "npz": "/home/ubuntu/data/preprocessed/DUKE_915.npz"
+  },
+  {
+   "case": "ISPY1_1005",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1005.npz"
+  },
+  {
+   "case": "ISPY1_1007",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1007.npz"
+  },
+  {
+   "case": "ISPY1_1017",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1017.npz"
+  },
+  {
+   "case": "ISPY1_1027",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1027.npz"
+  },
+  {
+   "case": "ISPY1_1036",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1036.npz"
+  },
+  {
+   "case": "ISPY1_1040",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1040.npz"
+  },
+  {
+   "case": "ISPY1_1042",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1042.npz"
+  },
+  {
+   "case": "ISPY1_1051",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1051.npz"
+  },
+  {
+   "case": "ISPY1_1053",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1053.npz"
+  },
+  {
+   "case": "ISPY1_1072",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1072.npz"
+  },
+  {
+   "case": "ISPY1_1074",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1074.npz"
+  },
+  {
+   "case": "ISPY1_1082",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1082.npz"
+  },
+  {
+   "case": "ISPY1_1084",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1084.npz"
+  },
+  {
+   "case": "ISPY1_1087",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1087.npz"
+  },
+  {
+   "case": "ISPY1_1089",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1089.npz"
+  },
+  {
+   "case": "ISPY1_1090",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1090.npz"
+  },
+  {
+   "case": "ISPY1_1094",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1094.npz"
+  },
+  {
+   "case": "ISPY1_1097",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1097.npz"
+  },
+  {
+   "case": "ISPY1_1101",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1101.npz"
+  },
+  {
+   "case": "ISPY1_1103",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1103.npz"
+  },
+  {
+   "case": "ISPY1_1114",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1114.npz"
+  },
+  {
+   "case": "ISPY1_1139",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1139.npz"
+  },
+  {
+   "case": "ISPY1_1140",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1140.npz"
+  },
+  {
+   "case": "ISPY1_1141",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1141.npz"
+  },
+  {
+   "case": "ISPY1_1145",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1145.npz"
+  },
+  {
+   "case": "ISPY1_1148",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1148.npz"
+  },
+  {
+   "case": "ISPY1_1149",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1149.npz"
+  },
+  {
+   "case": "ISPY1_1150",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1150.npz"
+  },
+  {
+   "case": "ISPY1_1151",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1151.npz"
+  },
+  {
+   "case": "ISPY1_1156",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1156.npz"
+  },
+  {
+   "case": "ISPY1_1159",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1159.npz"
+  },
+  {
+   "case": "ISPY1_1160",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1160.npz"
+  },
+  {
+   "case": "ISPY1_1161",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1161.npz"
+  },
+  {
+   "case": "ISPY1_1164",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1164.npz"
+  },
+  {
+   "case": "ISPY1_1167",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1167.npz"
+  },
+  {
+   "case": "ISPY1_1169",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1169.npz"
+  },
+  {
+   "case": "ISPY1_1173",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1173.npz"
+  },
+  {
+   "case": "ISPY1_1175",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1175.npz"
+  },
+  {
+   "case": "ISPY1_1176",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1176.npz"
+  },
+  {
+   "case": "ISPY1_1179",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1179.npz"
+  },
+  {
+   "case": "ISPY1_1180",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1180.npz"
+  },
+  {
+   "case": "ISPY1_1181",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1181.npz"
+  },
+  {
+   "case": "ISPY1_1183",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1183.npz"
+  },
+  {
+   "case": "ISPY1_1187",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1187.npz"
+  },
+  {
+   "case": "ISPY1_1191",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1191.npz"
+  },
+  {
+   "case": "ISPY1_1193",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1193.npz"
+  },
+  {
+   "case": "ISPY1_1194",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1194.npz"
+  },
+  {
+   "case": "ISPY1_1199",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1199.npz"
+  },
+  {
+   "case": "ISPY1_1201",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1201.npz"
+  },
+  {
+   "case": "ISPY1_1202",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1202.npz"
+  },
+  {
+   "case": "ISPY1_1203",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1203.npz"
+  },
+  {
+   "case": "ISPY1_1208",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1208.npz"
+  },
+  {
+   "case": "ISPY1_1210",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1210.npz"
+  },
+  {
+   "case": "ISPY1_1215",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1215.npz"
+  },
+  {
+   "case": "ISPY1_1218",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1218.npz"
+  },
+  {
+   "case": "ISPY1_1219",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1219.npz"
+  },
+  {
+   "case": "ISPY1_1221",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1221.npz"
+  },
+  {
+   "case": "ISPY1_1222",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1222.npz"
+  },
+  {
+   "case": "ISPY1_1224",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1224.npz"
+  },
+  {
+   "case": "ISPY1_1225",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1225.npz"
+  },
+  {
+   "case": "ISPY1_1227",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1227.npz"
+  },
+  {
+   "case": "ISPY1_1230",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1230.npz"
+  },
+  {
+   "case": "ISPY1_1231",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1231.npz"
+  },
+  {
+   "case": "ISPY1_1233",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1233.npz"
+  },
+  {
+   "case": "ISPY1_1235",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1235.npz"
+  },
+  {
+   "case": "ISPY1_1236",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1236.npz"
+  },
+  {
+   "case": "ISPY1_1238",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY1_1238.npz"
+  },
+  {
+   "case": "ISPY2_105513",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_105513.npz"
+  },
+  {
+   "case": "ISPY2_108939",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_108939.npz"
+  },
+  {
+   "case": "ISPY2_108969",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_108969.npz"
+  },
+  {
+   "case": "ISPY2_109874",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_109874.npz"
+  },
+  {
+   "case": "ISPY2_109980",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_109980.npz"
+  },
+  {
+   "case": "ISPY2_111004",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_111004.npz"
+  },
+  {
+   "case": "ISPY2_111674",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_111674.npz"
+  },
+  {
+   "case": "ISPY2_112606",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_112606.npz"
+  },
+  {
+   "case": "ISPY2_115638",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_115638.npz"
+  },
+  {
+   "case": "ISPY2_117424",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_117424.npz"
+  },
+  {
+   "case": "ISPY2_120422",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_120422.npz"
+  },
+  {
+   "case": "ISPY2_123660",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_123660.npz"
+  },
+  {
+   "case": "ISPY2_129973",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_129973.npz"
+  },
+  {
+   "case": "ISPY2_132463",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_132463.npz"
+  },
+  {
+   "case": "ISPY2_139771",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_139771.npz"
+  },
+  {
+   "case": "ISPY2_141782",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_141782.npz"
+  },
+  {
+   "case": "ISPY2_144302",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_144302.npz"
+  },
+  {
+   "case": "ISPY2_145777",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_145777.npz"
+  },
+  {
+   "case": "ISPY2_151230",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_151230.npz"
+  },
+  {
+   "case": "ISPY2_151980",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_151980.npz"
+  },
+  {
+   "case": "ISPY2_152197",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_152197.npz"
+  },
+  {
+   "case": "ISPY2_157270",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_157270.npz"
+  },
+  {
+   "case": "ISPY2_159352",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_159352.npz"
+  },
+  {
+   "case": "ISPY2_166782",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_166782.npz"
+  },
+  {
+   "case": "ISPY2_169536",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_169536.npz"
+  },
+  {
+   "case": "ISPY2_172168",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_172168.npz"
+  },
+  {
+   "case": "ISPY2_180027",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_180027.npz"
+  },
+  {
+   "case": "ISPY2_182346",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_182346.npz"
+  },
+  {
+   "case": "ISPY2_188091",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_188091.npz"
+  },
+  {
+   "case": "ISPY2_197942",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_197942.npz"
+  },
+  {
+   "case": "ISPY2_201831",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_201831.npz"
+  },
+  {
+   "case": "ISPY2_202535",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_202535.npz"
+  },
+  {
+   "case": "ISPY2_208265",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_208265.npz"
+  },
+  {
+   "case": "ISPY2_212307",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_212307.npz"
+  },
+  {
+   "case": "ISPY2_213328",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_213328.npz"
+  },
+  {
+   "case": "ISPY2_220664",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_220664.npz"
+  },
+  {
+   "case": "ISPY2_222135",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_222135.npz"
+  },
+  {
+   "case": "ISPY2_229824",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_229824.npz"
+  },
+  {
+   "case": "ISPY2_236470",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_236470.npz"
+  },
+  {
+   "case": "ISPY2_237158",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_237158.npz"
+  },
+  {
+   "case": "ISPY2_241705",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_241705.npz"
+  },
+  {
+   "case": "ISPY2_253531",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_253531.npz"
+  },
+  {
+   "case": "ISPY2_255388",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_255388.npz"
+  },
+  {
+   "case": "ISPY2_259899",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_259899.npz"
+  },
+  {
+   "case": "ISPY2_262131",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_262131.npz"
+  },
+  {
+   "case": "ISPY2_264305",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_264305.npz"
+  },
+  {
+   "case": "ISPY2_266509",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_266509.npz"
+  },
+  {
+   "case": "ISPY2_275034",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_275034.npz"
+  },
+  {
+   "case": "ISPY2_282644",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_282644.npz"
+  },
+  {
+   "case": "ISPY2_283070",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_283070.npz"
+  },
+  {
+   "case": "ISPY2_301289",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_301289.npz"
+  },
+  {
+   "case": "ISPY2_301968",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_301968.npz"
+  },
+  {
+   "case": "ISPY2_307659",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_307659.npz"
+  },
+  {
+   "case": "ISPY2_313672",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_313672.npz"
+  },
+  {
+   "case": "ISPY2_317641",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_317641.npz"
+  },
+  {
+   "case": "ISPY2_318293",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_318293.npz"
+  },
+  {
+   "case": "ISPY2_318438",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_318438.npz"
+  },
+  {
+   "case": "ISPY2_326433",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_326433.npz"
+  },
+  {
+   "case": "ISPY2_327142",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_327142.npz"
+  },
+  {
+   "case": "ISPY2_332655",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_332655.npz"
+  },
+  {
+   "case": "ISPY2_345460",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_345460.npz"
+  },
+  {
+   "case": "ISPY2_353318",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_353318.npz"
+  },
+  {
+   "case": "ISPY2_356399",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_356399.npz"
+  },
+  {
+   "case": "ISPY2_362150",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_362150.npz"
+  },
+  {
+   "case": "ISPY2_374106",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_374106.npz"
+  },
+  {
+   "case": "ISPY2_375342",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_375342.npz"
+  },
+  {
+   "case": "ISPY2_409288",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_409288.npz"
+  },
+  {
+   "case": "ISPY2_418593",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_418593.npz"
+  },
+  {
+   "case": "ISPY2_427321",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_427321.npz"
+  },
+  {
+   "case": "ISPY2_435313",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_435313.npz"
+  },
+  {
+   "case": "ISPY2_443708",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_443708.npz"
+  },
+  {
+   "case": "ISPY2_453596",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_453596.npz"
+  },
+  {
+   "case": "ISPY2_467622",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_467622.npz"
+  },
+  {
+   "case": "ISPY2_495440",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_495440.npz"
+  },
+  {
+   "case": "ISPY2_501303",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_501303.npz"
+  },
+  {
+   "case": "ISPY2_516763",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_516763.npz"
+  },
+  {
+   "case": "ISPY2_520471",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_520471.npz"
+  },
+  {
+   "case": "ISPY2_527581",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_527581.npz"
+  },
+  {
+   "case": "ISPY2_531988",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_531988.npz"
+  },
+  {
+   "case": "ISPY2_532183",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_532183.npz"
+  },
+  {
+   "case": "ISPY2_539904",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_539904.npz"
+  },
+  {
+   "case": "ISPY2_550421",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_550421.npz"
+  },
+  {
+   "case": "ISPY2_564701",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_564701.npz"
+  },
+  {
+   "case": "ISPY2_573919",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_573919.npz"
+  },
+  {
+   "case": "ISPY2_579881",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_579881.npz"
+  },
+  {
+   "case": "ISPY2_597253",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_597253.npz"
+  },
+  {
+   "case": "ISPY2_597873",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_597873.npz"
+  },
+  {
+   "case": "ISPY2_598835",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_598835.npz"
+  },
+  {
+   "case": "ISPY2_622078",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_622078.npz"
+  },
+  {
+   "case": "ISPY2_624777",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_624777.npz"
+  },
+  {
+   "case": "ISPY2_628788",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_628788.npz"
+  },
+  {
+   "case": "ISPY2_631337",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_631337.npz"
+  },
+  {
+   "case": "ISPY2_638126",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_638126.npz"
+  },
+  {
+   "case": "ISPY2_639663",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_639663.npz"
+  },
+  {
+   "case": "ISPY2_641246",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_641246.npz"
+  },
+  {
+   "case": "ISPY2_654021",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_654021.npz"
+  },
+  {
+   "case": "ISPY2_664111",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_664111.npz"
+  },
+  {
+   "case": "ISPY2_666450",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_666450.npz"
+  },
+  {
+   "case": "ISPY2_685795",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_685795.npz"
+  },
+  {
+   "case": "ISPY2_689452",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_689452.npz"
+  },
+  {
+   "case": "ISPY2_725455",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_725455.npz"
+  },
+  {
+   "case": "ISPY2_726940",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_726940.npz"
+  },
+  {
+   "case": "ISPY2_727255",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_727255.npz"
+  },
+  {
+   "case": "ISPY2_736721",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_736721.npz"
+  },
+  {
+   "case": "ISPY2_745633",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_745633.npz"
+  },
+  {
+   "case": "ISPY2_783578",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_783578.npz"
+  },
+  {
+   "case": "ISPY2_783771",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_783771.npz"
+  },
+  {
+   "case": "ISPY2_791321",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_791321.npz"
+  },
+  {
+   "case": "ISPY2_793155",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_793155.npz"
+  },
+  {
+   "case": "ISPY2_801641",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_801641.npz"
+  },
+  {
+   "case": "ISPY2_814299",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_814299.npz"
+  },
+  {
+   "case": "ISPY2_828199",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_828199.npz"
+  },
+  {
+   "case": "ISPY2_830486",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_830486.npz"
+  },
+  {
+   "case": "ISPY2_846156",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_846156.npz"
+  },
+  {
+   "case": "ISPY2_859699",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_859699.npz"
+  },
+  {
+   "case": "ISPY2_863161",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_863161.npz"
+  },
+  {
+   "case": "ISPY2_870077",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_870077.npz"
+  },
+  {
+   "case": "ISPY2_872188",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_872188.npz"
+  },
+  {
+   "case": "ISPY2_877463",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_877463.npz"
+  },
+  {
+   "case": "ISPY2_887594",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_887594.npz"
+  },
+  {
+   "case": "ISPY2_894673",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_894673.npz"
+  },
+  {
+   "case": "ISPY2_896621",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_896621.npz"
+  },
+  {
+   "case": "ISPY2_916586",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_916586.npz"
+  },
+  {
+   "case": "ISPY2_930172",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_930172.npz"
+  },
+  {
+   "case": "ISPY2_960490",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_960490.npz"
+  },
+  {
+   "case": "ISPY2_962472",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_962472.npz"
+  },
+  {
+   "case": "ISPY2_973837",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_973837.npz"
+  },
+  {
+   "case": "ISPY2_981461",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_981461.npz"
+  },
+  {
+   "case": "ISPY2_981664",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_981664.npz"
+  },
+  {
+   "case": "ISPY2_986734",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_986734.npz"
+  },
+  {
+   "case": "ISPY2_991818",
+   "npz": "/home/ubuntu/data/preprocessed/ISPY2_991818.npz"
+  },
+  {
+   "case": "NACT_02",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_02.npz"
+  },
+  {
+   "case": "NACT_08",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_08.npz"
+  },
+  {
+   "case": "NACT_09",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_09.npz"
+  },
+  {
+   "case": "NACT_13",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_13.npz"
+  },
+  {
+   "case": "NACT_17",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_17.npz"
+  },
+  {
+   "case": "NACT_18",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_18.npz"
+  },
+  {
+   "case": "NACT_27",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_27.npz"
+  },
+  {
+   "case": "NACT_28",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_28.npz"
+  },
+  {
+   "case": "NACT_29",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_29.npz"
+  },
+  {
+   "case": "NACT_32",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_32.npz"
+  },
+  {
+   "case": "NACT_39",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_39.npz"
+  },
+  {
+   "case": "NACT_41",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_41.npz"
+  },
+  {
+   "case": "NACT_44",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_44.npz"
+  },
+  {
+   "case": "NACT_55",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_55.npz"
+  },
+  {
+   "case": "NACT_57",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_57.npz"
+  },
+  {
+   "case": "NACT_60",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_60.npz"
+  },
+  {
+   "case": "NACT_67",
+   "npz": "/home/ubuntu/data/preprocessed/NACT_67.npz"
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+/opt/pytorch/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/ubuntu/models.py:70: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.transformer = nn.TransformerEncoder(layer, num_layers=n_layers)
+[0;93m2026-07-31 03:11:16.529807623 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+checkpoint: runs/full/best.pt  (epoch 186)
+tuning on:  val split, 30 cases
+
+  5/30   best so far: thr 0.995 Dice 0.6851
+  10/30   best so far: thr 0.99 Dice 0.5402
+  15/30   best so far: thr 0.99 Dice 0.5289
+  20/30   best so far: thr 0.99 Dice 0.5192
+  25/30   best so far: thr 0.99 Dice 0.5720
+  30/30   best so far: thr 0.99 Dice 0.5537
+
+ threshold      Dice   Dice+LCC   median vol err %
+----------------------------------------------------
+       0.5    0.4320     0.4036              211.5
+       0.7    0.4545     0.4623              172.0
+       0.8    0.4696     0.4866              147.8
+       0.9    0.4952     0.5185              110.0
+      0.95    0.5206     0.5898               62.8
+      0.98    0.5480     0.6093               31.8
+      0.99    0.5537     0.6028                4.5
+     0.995    0.5423     0.5779               -9.0
+     0.999    0.4158     0.4243              -59.2
+    0.9995    0.3343     0.3221              -77.6
+
+====================================================
+best threshold          0.99   Dice 0.5537
+best threshold + LCC    0.98   Dice 0.6093
+baseline (thr 0.5)          Dice 0.4320
+====================================================
+
+recovered +0.1773 Dice without retraining
+
+Apply with:  evaluate.py --threshold 0.99
+Report the threshold and how it was selected (validation split,
+never test) in the methods section.

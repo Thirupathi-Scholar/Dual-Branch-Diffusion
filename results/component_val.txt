@@ -1,0 +1,49 @@
+/opt/pytorch/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+/home/ubuntu/models.py:70: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.transformer = nn.TransformerEncoder(layer, num_layers=n_layers)
+[0;93m2026-07-31 05:56:07.248532163 [W:onnxruntime:Default, device_discovery.cc:285 GetGpuDevices] Failed to detect devices under "/sys/class/drm/card0": device_discovery.cc:94 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+checkpoint: runs/full/best.pt (epoch 186)
+split:      val, 60 cases, threshold 0.98
+
+  10/60
+  20/60
+  30/60
+  40/60
+  50/60
+  60/60
+
+======================================================================
+ALL CASES  (n=60)
+======================================================================
+  components per case (median):  26
+  Dice, largest component:       0.5965
+  Dice, highest peak prob:       0.5603
+  Dice, highest mean prob:       0.5013
+  Dice, ORACLE best component:   0.7044
+
+======================================================================
+FAILING CASES  (Dice of largest component < 0.1, n=10)
+======================================================================
+  components per case (median):  48
+  best available Dice (oracle):  0.6543
+  ... of which score > 0.3:      9 / 10
+
+  Dice by peak-probability rule: 0.4197
+  Dice by mean-probability rule: 0.4145
+
+  median rank of correct component by size: 2
+  median rank by peak probability:          1
+
+======================================================================
+VERDICT
+======================================================================
+90% of failing cases contain a component that
+would score above 0.3. The lesion IS being found and then
+discarded by largest-component selection.
+
+Selecting by peak probability instead recovers +0.4120 Dice
+on these cases. Worth switching, and worth reporting as a
+post-processing finding.
+
+per-case detail written to component_analysis.csv

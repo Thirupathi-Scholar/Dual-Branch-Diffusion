@@ -1,0 +1,12 @@
+*.pt
+*.npz
+*.nii
+*.nii.gz
+probs/
+probs_val/
+probs_smoke/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.tar.gz
+*.zip
